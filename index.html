@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+
+    <div class="back">
+        <div class="login">
+            <h2>Register Now</h2>
+
+            <form>
+                <div class="form-g">
+                    <label for="name">Username</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="form-g">
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" required>
+                </div>
+
+                <button type="submit">Sign up</button>
+
+            </form>
+
+            <div class="loginw">
+                <i data-feather="mail"></i>
+                <h4>Login With Email</h4>
+            </div>
+
+            <div class="loginw">
+                <i data-feather="phone"></i>
+                <h4>Login With Phone</h4>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+      </script>
+</body>
+
+</html>
